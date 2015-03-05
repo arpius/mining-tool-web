@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="author" content="Aritz Pi&ntilde;ero" />
+		<title>Mining tool</title>
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/cuerpo.css') }}" />
+	</head>
+	<body>
+		<div id="wrapper">
+			<header>
+				<nav>
+					<ul>
+						<li class="active"><a href="/">inicio</a></li>
+						<li><a href="/contacto">contacto</a></li>
+					</ul>
+				</nav>
+			</header>
+			
+			<h3>Descripci&oacute;n</h3>
+			<p>Mining tool es una herramienta para estudiantes y profesionales en ingenier&iacute;a de minas y civil, para facilitar 
+			la selecci&oacute;n de equipos en proyectos.</p>
+			<a href="https://play.google.com/store/apps/details?id=biz.arpius.miningtool.app">
+			    <img src="https://developer.android.com/images/brand/es_generic_rgb_wo_45.png" alt="Google Play" />
+			</a>
+			
+			<h3>Licencia</h3>
+			<p>Mining tool tiene una licencia <a id="licencia" href="https://www.apache.org/licenses/LICENSE-2.0.html">Apache</a>.</p>
+						
+			<footer id="pie">
+				<p>Perpetrado por <span id="autor">Aritz Pi&ntilde;ero</span> usando 
+					<a href="http://flask.pocoo.org/">
+						<img src="{{ url_for('static', filename='img/flask.png') }}" alt="Flask" />
+					</a>
+				</p>
+			</footer>
+		</div>
+	</body>
+</html>

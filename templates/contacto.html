@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="author" content="Aritz Pi&ntilde;ero" />
+		<title>arpius - contacto</title>
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/cuerpo.css') }}" />
+	</head>
+	<body>
+		<div id="wrapper">
+			<header>
+				<nav>
+					<ul>
+						<li><a href="/">inicio</a></li>
+						<li class="active"><a href="/contacto">contacto</a></li>
+					</ul>
+				</nav>
+			</header>
+			
+			<address class="contacto">
+                <a href="https://twitter.com/miningtool">
+                    <img src="{{ url_for('static', filename='img/twitter.png') }}" alt="Twitter" />
+                </a>
+
+                <a href="https://github.com/arpius/mining-tool">
+                    <img src="{{ url_for('static', filename='img/github.png') }}" alt="Github" />
+                </a>
+
+                <a href="mailto:miningtool.app@gmail.com">
+                    <img src="{{ url_for('static', filename='img/correo.png') }}" alt="Correo" />
+                </a>
+            </address>
+			
+			<footer id="pie">
+				<p>Perpetrado por <span id="autor">Aritz Pi&ntilde;ero</span> usando 
+					<a href="http://flask.pocoo.org/">
+						<img src="{{ url_for('static', filename='img/flask.png') }}" alt="Flask" />
+					</a>
+				</p>
+			</footer>
+		</div>
+	</body>
+</html>
